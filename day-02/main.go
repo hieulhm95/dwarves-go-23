@@ -27,6 +27,7 @@ func main() {
 	case isFloatValue:
 		dataType = "float"
 	case isStringValue:
+		dataType = "string"
 	}
 	utils.Sort(args, dataType)
 }
